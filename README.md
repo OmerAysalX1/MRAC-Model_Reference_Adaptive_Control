@@ -29,7 +29,7 @@ Given the reference trajectory $x_d = \sin(t)$ and its derivative $\dot{x}_d = \
 $$e = x - x_d$$
 
 Taking the time derivative of the tracking error yields:
-$$\dot{e} = \dot{x} - \dot{x}_d = a_{true} \cdot x^2 + b_{true} \cdot \cos(t) + u - \dot{x}_d$$
+e = x - x_d = a_true* x^2 + b_true*cos(t) + u -x_d
 
 ### 3. Control Law and Parameter Adaptation Rules
 Since the true plant parameters ($a_{true}, b_{true}$) are assumed to be unknown to the controller, their corresponding estimated values ($\hat{a}$ and $\hat{b}$) are utilized. Utilizing the feedback linearization approach, the control input ($u$) is designed as follows:
